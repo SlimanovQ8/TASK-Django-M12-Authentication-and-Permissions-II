@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "crispy_forms",
     "movies",
     "shared",
+    'crispy_forms',
 ]
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
@@ -115,6 +115,8 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
+
+LOGIN_URL = '/login'
 
 
 # Static files (CSS, JavaScript, Images)
